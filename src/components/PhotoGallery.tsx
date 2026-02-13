@@ -26,13 +26,14 @@ export default function PhotoGallery() {
               transition={{ duration: 0.6, delay: index * 0.15 }}
               whileHover={{ scale: 1.05, zIndex: 10 }}
               className="relative cursor-pointer transition-shadow duration-300"
-              style={{ zIndex: photo.zIndex, transform: `rotate(${photo.rotate}deg)` }}
+              style={{ zIndex: photo.zIndex }}
             >
               <div
                 className="w-52 h-64 md:w-60 md:h-72 bg-[#fffcfb] border border-[#c3aca2] rounded-lg shadow-[0_4px_20px_rgba(195,172,162,0.2)] p-2 md:p-3 md:absolute"
                 style={{
                   left: `${index * 30}%`,
                   top: `${40 + photo.translateY}px`,
+                  transform: `rotate(${photo.rotate}deg)`,
                 }}
               >
                 <div className="relative w-full h-full rounded overflow-hidden">
