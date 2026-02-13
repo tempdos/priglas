@@ -26,7 +26,7 @@ export default function MapSection() {
           {/* Map image */}
           <div className="rounded-3xl border border-[#c3aca2] overflow-hidden shadow-[0_8px_40px_rgba(195,172,162,0.15)]">
             <Image
-              src="/map.png"
+              src="/map-opt.jpg"
               alt="Карта — с. Майя, ул. Сыроватского 9, банкетный зал Лира"
               width={800}
               height={500}
