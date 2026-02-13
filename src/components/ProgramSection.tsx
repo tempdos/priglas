@@ -13,7 +13,7 @@ const schedule = [
 
 export default function ProgramSection() {
   return (
-    <section className="py-16 md:py-24 px-4 bg-white">
+    <section className="py-16 md:py-24 px-4">
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

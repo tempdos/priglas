@@ -5,7 +5,7 @@ import FloralDecor from "./FloralDecor";
 
 export default function InvitationSection() {
   return (
-    <section className="relative py-16 md:py-24 px-4 bg-white">
+    <section className="relative py-16 md:py-24 px-4">
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

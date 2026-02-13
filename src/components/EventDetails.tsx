@@ -8,7 +8,7 @@ const YEAR = 2026;
 const MONTH = 2; // 0-indexed: March = 2
 const EVENT_DAY = 1;
 
-const WEEKDAY_LABELS = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Бс"];
+const WEEKDAY_LABELS = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
 
 function getCalendarDays() {
   const firstDay = new Date(YEAR, MONTH, 1);
@@ -38,7 +38,7 @@ const calendarDays = getCalendarDays();
 
 export default function EventDetails() {
   return (
-    <section className="py-16 md:py-24 px-4 bg-white">
+    <section className="py-16 md:py-24 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Section title */}
         <motion.div
@@ -179,7 +179,6 @@ export default function EventDetails() {
                 16:00
               </p>
               <p className="font-[var(--font-times)] text-lg text-[#323155]">
-                Благословение
               </p>
             </div>
           </motion.div>

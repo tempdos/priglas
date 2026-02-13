@@ -7,11 +7,13 @@ import CountdownTimer from "@/components/CountdownTimer";
 import RSVPForm from "@/components/RSVPForm";
 import FooterSection from "@/components/FooterSection";
 import WelcomeScreen from "@/components/WelcomeScreen";
+import BackgroundFlowers from "@/components/BackgroundFlowers";
 
 export default function Home() {
   return (
     <WelcomeScreen>
-      <main className="bg-white min-h-screen">
+      <main className="bg-white min-h-screen relative">
+        <BackgroundFlowers />
         <HeroSection />
         <InvitationSection />
         <EventDetails />

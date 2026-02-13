@@ -12,7 +12,7 @@ const photos = [
 
 export default function PhotoGallery() {
   return (
-    <section className="py-16 md:py-24 px-4 bg-white overflow-hidden">
+    <section className="py-16 md:py-24 px-4 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         {/* Section title */}
         <motion.div
