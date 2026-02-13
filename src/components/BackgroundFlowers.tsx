@@ -40,6 +40,7 @@ export default function BackgroundFlowers() {
             width={f.size}
             height={f.size}
             className="w-full h-full object-contain"
+            loading="lazy"
           />
         </div>
       ))}

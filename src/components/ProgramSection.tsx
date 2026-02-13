@@ -5,10 +5,10 @@ import FloralDecor from "./FloralDecor";
 
 const schedule = [
   { time: "15:00", text: "Ыҥырыылаах ыалдьыттар мустуулара" },
-  { time: "16:00", text: "АЛГЫС" },
-  { time: "17:00", text: "Бастыкы остуол" },
-  { time: "19:30", text: "Уопсай хаартыскаҕа түһүү" },
-  { time: "22:00", text: "Үнкүү-битии" },
+  { time: "16:00", text: "Алгыс" },
+  { time: "16:30", text: "Бастыкы остуол" },
+  { time: "19:00", text: "Уопсай хаартыскаҕа түһүү" },
+  { time: "21:00", text: "Үнкүү-битии" },
 ];
 
 export default function ProgramSection() {

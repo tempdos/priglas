@@ -16,7 +16,7 @@ export default function WelcomeScreen({ children }: { children: React.ReactNode 
 
   return (
     <>
-      <audio ref={audioRef} src="/music.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/music-opt.mp3" loop preload="auto" />
 
       <AnimatePresence>
         {!entered && (

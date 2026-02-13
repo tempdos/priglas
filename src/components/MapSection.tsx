@@ -53,7 +53,7 @@ export default function MapSection() {
               className="inline-block px-3 py-1.5 rounded-full border border-[#c3aca2] bg-[#fffcfb] transition-all hover:scale-105 hover:border-[#b94244] active:scale-95 shadow-[0_4px_15px_rgba(195,172,162,0.15)]"
             >
               <Image
-                src="/2gis.png"
+                src="/2gis-opt.png"
                 alt="Открыть в 2ГИС"
                 width={120}
                 height={40}

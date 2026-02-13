@@ -163,7 +163,6 @@ export default function EventDetails() {
                 15:00
               </p>
               <p className="font-[var(--font-times)] text-lg text-[#323155]">
-                саҕаланыыта
               </p>
             </div>
 
@@ -173,7 +172,7 @@ export default function EventDetails() {
             {/* Algys */}
             <div>
               <p className="font-[var(--font-times)] text-sm tracking-[0.2em] uppercase text-[#c3aca2] mb-1">
-                Алгыс
+                Саҕаланыыта
               </p>
               <p className="font-[var(--font-times)] text-4xl md:text-5xl font-bold text-[#b94244]">
                 16:00
