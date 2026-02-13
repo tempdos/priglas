@@ -17,17 +17,16 @@ export default function PhotoGallery() {
           {photos.map((photo, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
+              initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{
                 opacity: 1,
                 scale: 1,
-                rotate: photo.rotate,
               }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              whileHover={{ scale: 1.05, rotate: 0, zIndex: 10 }}
+              whileHover={{ scale: 1.05, zIndex: 10 }}
               className="relative cursor-pointer transition-shadow duration-300"
-              style={{ zIndex: photo.zIndex }}
+              style={{ zIndex: photo.zIndex, rotate: `${photo.rotate}deg` }}
             >
               <div
                 className="w-52 h-64 md:w-60 md:h-72 bg-[#fffcfb] border border-[#c3aca2] rounded-lg shadow-[0_4px_20px_rgba(195,172,162,0.2)] p-2 md:p-3 md:absolute"
