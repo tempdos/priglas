@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import FloralDecor from "./FloralDecor";
 
 // Вставь сюда URL твоего Google Apps Script web app
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwjnOcrCuwXnoY9IR-e-LxX1AlsddYC8hGoB4ZRTy38bLlsEDGyLjYMs9jJv782KtWtAQ/exec";
@@ -74,7 +75,8 @@ export default function RSVPForm() {
             </motion.div>
           ) : (
             <form onSubmit={handleSubmit}>
-              <div className="oval-container px-8 py-12 md:px-12 md:py-14">
+              <div className="oval-container px-8 py-12 md:px-12 md:py-14 relative overflow-visible">
+                <FloralDecor positions={["top-left", "bottom-right"]} flowerSrc="/flower2.svg" />
                 {/* Name field */}
                 <div className="mb-8">
                   <label className="block font-[var(--font-times)] text-sm tracking-[0.15em] uppercase text-[#c3aca2] mb-3 text-center">
@@ -108,7 +110,7 @@ export default function RSVPForm() {
                         }
                       `}
                     >
-                      Приду
+                      Кэлэбин
                     </button>
                     <button
                       type="button"
@@ -122,7 +124,7 @@ export default function RSVPForm() {
                         }
                       `}
                     >
-                      Не приду
+                      Кыайан кэлбэппин
                     </button>
                   </div>
                 </div>

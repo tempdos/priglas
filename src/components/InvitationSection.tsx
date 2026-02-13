@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import FloralDecor from "./FloralDecor";
 
 export default function InvitationSection() {
   return (
@@ -11,8 +12,9 @@ export default function InvitationSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
-          className="oval-container px-8 py-16 md:px-16 md:py-24 text-center"
+          className="oval-container px-8 py-16 md:px-16 md:py-24 text-center relative overflow-visible"
         >
+          <FloralDecor positions={["top-left", "top-right", "bottom-left", "bottom-right"]} />
           {/* Decorative top ornament */}
           <div className="flex justify-center mb-8">
             <svg width="60" height="30" viewBox="0 0 60 30" fill="none">

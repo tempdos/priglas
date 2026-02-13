@@ -6,6 +6,7 @@ import ProgramSection from "@/components/ProgramSection";
 import CountdownTimer from "@/components/CountdownTimer";
 import RSVPForm from "@/components/RSVPForm";
 import FooterSection from "@/components/FooterSection";
+import MusicPlayer from "@/components/MusicPlayer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CountdownTimer />
       <RSVPForm />
       <FooterSection />
+      <MusicPlayer />
     </main>
   );
 }

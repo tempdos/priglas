@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import FloralDecor from "./FloralDecor";
 
 // March 2026 calendar data
 const YEAR = 2026;
@@ -64,7 +65,8 @@ export default function EventDetails() {
             transition={{ duration: 0.7 }}
             className="w-full max-w-sm"
           >
-            <div className="border border-[#c3aca2] rounded-3xl bg-[#fffcfb] p-6 md:p-8 shadow-[0_8px_40px_rgba(195,172,162,0.1)]">
+            <div className="relative overflow-visible border border-[#c3aca2] rounded-3xl bg-[#fffcfb] p-6 md:p-8 shadow-[0_8px_40px_rgba(195,172,162,0.1)]">
+              <FloralDecor positions={["top-right", "bottom-left"]} />
               {/* Month & Year header */}
               <div className="text-center mb-6">
                 <p className="font-[var(--font-times)] text-sm tracking-[0.25em] uppercase text-[#c3aca2]">

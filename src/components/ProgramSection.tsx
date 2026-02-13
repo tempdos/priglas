@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import FloralDecor from "./FloralDecor";
 
 const schedule = [
   { time: "15:00", text: "Ыҥырыылаах ыалдьыттар мустуулара" },
@@ -19,8 +20,9 @@ export default function ProgramSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
-          className="oval-container px-8 py-14 md:px-16 md:py-20"
+          className="oval-container px-8 py-14 md:px-16 md:py-20 relative overflow-visible"
         >
+          <FloralDecor positions={["top-left", "bottom-right"]} flowerSrc="/flower2.svg" />
           {/* Section title */}
           <div className="text-center mb-10">
             <h2 className="font-[var(--font-times)] text-2xl md:text-3xl font-semibold text-[#323155]">
