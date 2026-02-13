@@ -45,6 +45,13 @@ export default function PhotoGallery() {
                     sizes="(max-width: 768px) 208px, 240px"
                     loading="lazy"
                   />
+                  <Image
+                    src="/frame.png"
+                    alt=""
+                    fill
+                    className="object-cover scale-250 pointer-events-none z-10 opacity-50"
+                    sizes="(max-width: 768px) 208px, 240px"
+                  />
                 </div>
               </div>
             </motion.div>
