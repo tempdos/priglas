@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white px-4 pt-10 pb-16">
+    <section className="relative min-h-screen flex flex-col items-center justify-start overflow-hidden bg-white px-4 pt-4 pb-16">
       {/* Decorative floral elements */}
       <div className="absolute top-8 left-8 opacity-20">
         <svg width="120" height="120" viewBox="0 0 120 120" fill="none">

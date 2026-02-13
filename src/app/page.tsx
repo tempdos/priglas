@@ -4,6 +4,7 @@ import EventDetails from "@/components/EventDetails";
 import PhotoGallery from "@/components/PhotoGallery";
 import ProgramSection from "@/components/ProgramSection";
 import CountdownTimer from "@/components/CountdownTimer";
+import RSVPForm from "@/components/RSVPForm";
 import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <PhotoGallery />
       <ProgramSection />
       <CountdownTimer />
+      <RSVPForm />
       <FooterSection />
     </main>
   );
